@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-task',
+  standalone: true,
   imports: [ CommonModule, FormsModule ],
   templateUrl: './task.component.html',
   styleUrl: './task.component.scss'
